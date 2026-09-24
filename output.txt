@@ -1,1 +1,28 @@
 # Simply copy and paste the output from your terminal here!
+
+[lauryngong@login-students ~]$ ls
+cs3650
+[lauryngong@login-students ~]$ pwd
+/home/lauryngong
+[lauryngong@login-students ~]$ ps
+    PID TTY          TIME CMD
+  12424 pts/23   00:00:00 bash
+  12542 pts/23   00:00:00 ps
+[lauryngong@login-students ~]$ whoami
+lauryngong
+[lauryngong@login-students ~]$ mkdir hello
+[lauryngong@login-students ~]$ rmdir hello
+[lauryngong@login-students ~]$ cd cs3650
+[lauryngong@login-students cs3650]$ ls
+hello  hello.c  hello.o  hello.s
+[lauryngong@login-students cs3650]$ nl hello.c
+     1  #include <stdio.h>
+       
+     2  int main() {
+     3          puts("Hello Khoury servers!");
+     4          return 0;
+     5  }
+[lauryngong@login-students cs3650]$ echo hello
+hello
+[lauryngong@login-students cs3650]$ touch hello
+[lauryngong@login-students cs3650]$ rm hello
